@@ -361,18 +361,18 @@
     margin-top: 20px;
 }
 .banner .content h1{
-    color: rgb(67 0 86);
+    color: rgb(154, 203, 255);
     font-weight: bold;
     margin-left: 23px;
     font-size: 55px;
     text-shadow: -1px 1px 1px black;
 }
 .banner .content h1 span{
-    color: rgb(67 0 86);
+    color: rgb(154, 203, 255);
     text-shadow: 1px 1px 1px black;
 }
 #span2{
-    color: #ffc800;
+    color: #0088ff;
 }
 .banner .content p{
     margin-left: 23px;
@@ -384,7 +384,7 @@
     width: 150px;
     height: 32px;
     letter-spacing: 3px;
-    background-color: rgb(67 0 86);
+    background-color: #0088ff;
     color: white;
     border-radius: 5px;
     border: none;
@@ -392,7 +392,7 @@
     cursor: pointer;
 }
 .btn button:hover{
-    background-color: #ffc800;
+    background-color: #48749a;
     color: black;
     border: none;
 }
@@ -495,11 +495,14 @@
     margin-left: 10px;
     border-radius: 3px;
     border: none;
-    background-color: #ffc800;
+    background-color: #0088ff;
     color: white;
     letter-spacing: 3px;
     font-weight: bold;
     text-shadow: 0px 0px 1px black;
+}
+#subscribe:hover{
+    background-color:#000000;
 }
 @media screen and (max-width:465px){
     .input input{
@@ -527,19 +530,19 @@
     padding: 0 0 30px 0px;
     color: white;
     font-size: 14px;
-    background-color: rgb(67 0 86);
+    background-color: rgb(112, 155, 255);
     margin-top: 100px;
 }
 #footer .footer-top{
     padding: 60px 0 30px 0;
-    background-color: rgb(67 0 86);
+    background-color: rgb(112, 155, 255);
     color: white;
 }
 #footer .footer-top .footer-contact{
     margin-bottom: 30px;
 }
 #footer .footer-top .footer-contact h3{
-    color: #ffc800;
+    color: #000000;
 }
 #footer .footer-top .footer-contact h4{
     font-size: 22px;
@@ -565,7 +568,7 @@
     margin-top: 10px;
 }
 #footer .footer-top .footer-links h4{
-    color: #ffc800;
+    color: #000000;
 }
 #footer .footer-top .footer-links ul{
     list-style: none;
@@ -586,7 +589,7 @@
     transition: 0.5s ease;
 }
 #footer .footer-top .footer-links ul li a:hover{
-    color: #ffc800;
+    color: #000000;
 }
 #footer .footer-top .socail-links a{
     font-size: 18px;
@@ -603,8 +606,8 @@
     transition: 0.5s ease;
 }
 #footer .footer-top .socail-links a:hover{
-    background-color: #ffc800;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 #footer .copyright{
     text-align: center;
@@ -616,7 +619,7 @@
     font-size: 13px;
 }
 #footer .credits a{
-    color: #ffc800;
+    color: #000000;
 }
 /* footer */
 
@@ -645,13 +648,13 @@ html{
 #login{
     width: 65%;
     height: 70vh;
-    background-color: rgb(67 0 86);
+    background-color: #0088ff;
     margin-top: 35px;
     border-radius: 10px;
     box-shadow: rgba(17,12, 46, 0.15) 0px 48px 100px 0px;
 }
 #side1 h3{
-    color: #ffc800;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 200px;
 }
@@ -662,7 +665,7 @@ html{
 }
 #side2 h3{
     margin-top: 30px;
-    color: #ffc800;
+    color: #000000;
     font-weight: bold;
     text-shadow: 0px 1px 1px black;
 }
@@ -670,7 +673,7 @@ html{
     margin-top: 15px;
     width: 300px;
     border: none;
-    border-bottom: 2px solid #ffc800;
+    border-bottom: 2px solid #000000;
 }
 .input2 input ::placeholder{
     font-weight: bold;
@@ -682,7 +685,7 @@ html{
     padding: 10px;
     text-decoration: none;
     border-radius: 15px;
-    background-color: #ffc800;
+    background-color: #000000;
     color: white;
     font-weight: bold;
     border: none;
@@ -715,14 +718,14 @@ html{
 }
 #about h3{
     font-weight: bold;
-    color: #ffc800;
+    color: #000000;
     text-shadow: 0px 1px 1px black;
 }
 #about button{
     width: 150px;
     height: 36px;
     color: white;
-    background-color: rgb(67 0 86);
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -745,7 +748,7 @@ html{
     margin-top: 10px;
     margin-left: 10px;
     font-size: 15px;
-    color: rgb(67 0 86);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -754,21 +757,21 @@ html{
     margin-top: 10px;
     letter-spacing: 3px;
     font-weight: bold;
-    color: rgb(67 0 86);
+    color: rgb(0, 0, 0);
 }
 .messagebtn button{
     margin-top: 30px;
     width: 200px;
     height: 33px;
     background: transparent;
-    border: 2px solid rgb(67 0 86);
+    border: 5px solid rgb(0, 0, 0);
     font-weight: bold;
     letter-spacing: 3px;
     transition: 0.5s ease;
     cursor: pointer;
 }
 .messagebtn button:hover{
-    background-color: rgb(67 0 86);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 /* contact */
